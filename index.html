@@ -62,6 +62,7 @@
   <div class="bs-docs-section">
     <div class="row">
       <div class="col-lg-12">
+        <div class="alert alert-danger" role="alert" id="alert-box" style="display: none"><strong>エラー。</strong> <span id="alert-msg">このコンテンツはES6対応ブラウザ（Chrome、Safari、Edge、Firefox）でしか利用できません。</span></div>
         <p>日本語のランダム文字列を自動生成します。（<a href="about.html">解説</a>）</p>
         <div class="well bs-component">
           <form class="form-horizontal" onsubmit="genstr(); return false">
@@ -158,8 +159,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-    <script src="js/randstr.js"></script>
-    <script src="js/genstr.js"></script>
-
+    <script src="js/es6loader.js"></script>
   </body>
 </html>
